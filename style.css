@@ -512,7 +512,13 @@ footer > * {
         grid-template-columns: repeat(3,1fr);
         grid-template-rows: min-content 1fr;
 
-        padding-inline: 10.3125rem;
+        align-items: stretch;
+
+        padding: 10rem 10.3125rem;
+
+        column-gap: 1.875rem;
+        row-gap: 5.06rem;
+        
     }
 
     .client-testimonials h4 {
@@ -525,5 +531,11 @@ footer > * {
 
     .client-testimonials__testimonial {
         gap: 3.625rem;
+    }
+
+
+    .about-us__mission h2 {
+        font-size: 2.5rem;
+        line-height: 3.125rem;
     }
 }
